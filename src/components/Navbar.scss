@@ -10,6 +10,7 @@
         font-size: clamp(20px, 2vw, 30px);
         font-weight: bold;
         padding: 2px;
+        cursor: pointer;
         
     }
 }
@@ -19,4 +20,27 @@
     text-decoration: none;
     color: #fff;
     margin: 0 10px;
+}
+
+@media (max-width: 480px){
+    .mainNav{
+    padding: 6px 10px;
+
+    .logo{
+        font-size: clamp(16px, 2vw, 25px);
+        font-weight: bold;
+        padding: 2px;
+        
+    }
+}
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
 }

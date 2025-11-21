@@ -130,3 +130,51 @@
     }
 
 }
+
+@media (max-width: 480px) {
+    .addUserMain{
+    width: 100%;
+    padding: 10px ;
+
+
+    Form, .view{
+        width: clamp(310px,50vw,900px);
+        border-radius: 5px;
+        margin: clamp(12px, 2vw, 20px) auto;
+        padding: 20px;
+
+        h2,p{
+            margin: 8px;
+        }
+
+        .dataForm{
+            padding: 2px;
+
+            div{
+                margin: 10px 0px;
+                font-size: clamp(11px, 4vw, 20px);
+                font-weight: bold;
+                
+
+                input{
+                    width: clamp(300px, 40vw,600px);
+                    padding:0 clamp(5px, 1vw, 10px);
+                    font-size: clamp(10px, 2vw, 15px);
+                }
+            }
+        }
+
+
+
+    }
+
+    p{
+        text-align: center;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.584);
+    }
+
+}
+
+    
+}
