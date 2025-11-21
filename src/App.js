@@ -47,6 +47,7 @@ const removeUser=(id)=>setUsers((prev)=>prev.filter((x)=>x.id!==id))
 
       </Routes>
       <Routes>
+        <Route path='*' element={<h1>User Management Sysem</h1>}></Route>
           <Route path='/' element={<UsersList users={users} removeUser={removeUser}/>}/>
       </Routes>
 

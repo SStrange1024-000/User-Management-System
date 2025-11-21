@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='mainNav'>
       <div className="logo">
-        <Link to="/"  className='link'>User Management</Link>
+        <Link to="*"  className='link'>User Management</Link>
       </div>
 
       <div className="links">
