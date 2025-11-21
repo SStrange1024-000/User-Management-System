@@ -1,0 +1,22 @@
+.mainNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: rgb(37, 38, 81);
+
+    .logo{
+        font-size: clamp(20px, 2vw, 30px);
+        font-weight: bold;
+        padding: 2px;
+        
+    }
+}
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
